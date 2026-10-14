@@ -1,0 +1,22 @@
+{
+  "case": "item_no_store",
+  "command": [
+    "/opt/homebrew/opt/python@3.14/bin/python3.14",
+    "-B",
+    "<round3>/target/receipt2csv.py",
+    "<round3>/review/cases/item_no_store"
+  ],
+  "exit_code": 0,
+  "expected": {
+    "store": ""
+  },
+  "actual": [
+    {
+      "file": "receipt.pdf",
+      "date": "2026-10-01",
+      "amount": "100",
+      "store": "商品名: コーヒー"
+    }
+  ],
+  "matches_spec": false
+}

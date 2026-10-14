@@ -1,0 +1,22 @@
+{
+  "case": "store_label",
+  "command": [
+    "/opt/homebrew/opt/python@3.14/bin/python3.14",
+    "-B",
+    "<round3>/target/receipt2csv.py",
+    "<round3>/review/cases/store_label"
+  ],
+  "exit_code": 0,
+  "expected": {
+    "store": "カフェ ミドリ堂"
+  },
+  "actual": [
+    {
+      "file": "receipt.pdf",
+      "date": "2026-10-01",
+      "amount": "100",
+      "store": "店名"
+    }
+  ],
+  "matches_spec": false
+}

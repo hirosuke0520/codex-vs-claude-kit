@@ -1,0 +1,12 @@
+--- receipt.pdf [OCR 0] -> {'date': '2026-10-01', 'amount': '1280', 'store': 'Maple Cafe'}
+    Maple Cafe  (size=99.9)
+    2026-10-01  (size=76.4)
+    TOTAL JPY 1280  (size=82.0)
+--- receipt.pdf [OCR 1] -> {'date': '2026-10-01', 'amount': '1280', 'store': 'Maple Cafe'}
+    Maple Cafe  (size=99.9)
+    2026-10-01  (size=76.4)
+    TOTAL JPY 1280  (size=82.0)
+--- receipt.pdf [OCR 2] -> {'date': '2026-10-01', 'amount': '1280', 'store': 'Maple Cafe'}
+    Maple Cafe  (size=69.9)
+    2026-10-01  (size=53.3)
+    TOTAL JPY 1280  (size=57.8)

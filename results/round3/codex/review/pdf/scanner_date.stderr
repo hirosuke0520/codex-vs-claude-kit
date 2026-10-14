@@ -1,0 +1,21 @@
+--- receipt.pdf [テキスト None] -> {'date': '2026-10-02', 'amount': '', 'store': ''}
+    Scanned with local document management software  (size=10.0)
+    Scan date: 2026-10-02  (size=10.0)
+--- receipt.pdf [補助OCR 0] -> {'date': '2026-10-01', 'amount': '1280', 'store': 'Maple Cate'}
+    Maple Cate  (size=95.1)
+    2026-10-01  (size=73.0)
+    TOTAL JPY 1280  (size=84.9)
+    Scanned with local document management software  (size=48.3)
+    Scan date: 2026-10-02  (size=35.7)
+--- receipt.pdf [補助OCR 1] -> {'date': '2026-10-01', 'amount': '1280', 'store': 'Maple Cate'}
+    Maple Cate  (size=95.1)
+    2026-10-01  (size=73.0)
+    TOTAL JPY 1280  (size=84.9)
+    Scanned with local document management software  (size=48.3)
+    Scan date: 2026-10-02  (size=35.7)
+--- receipt.pdf [補助OCR 2] -> {'date': '2026-10-01', 'amount': '1280', 'store': 'Maple Cafe'}
+    Maple Cafe  (size=145.2)
+    2026-10-01  (size=109.3)
+    TOTAL JPY 1280  (size=127.7)
+    Scanned with local document management software  (size=72.1)
+    Scan date: 2026-10-02  (size=53.3)

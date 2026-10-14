@@ -1,0 +1,4 @@
+--- receipt.pdf [OCR 0] -> {'date': '', 'amount': '', 'store': ''}
+--- receipt.pdf [OCR 1] -> {'date': '', 'amount': '', 'store': ''}
+--- receipt.pdf [OCR 2] -> {'date': '', 'amount': '', 'store': ''}
+警告: receipt.pdf: 日付・金額・店名を取得できませんでした

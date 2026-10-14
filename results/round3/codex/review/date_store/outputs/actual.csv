@@ -1,0 +1,7 @@
+file,date,amount,store
+01_store_label.pdf,2026-10-01,100,店名
+02_invalid_date.pdf,2026-10-11,100,テスト店
+03_expiry_only.pdf,2026-10-31,100,テスト店
+04_item_no_store.pdf,2026-10-01,100,商品名: コーヒー
+05_old_date.pdf,,100,テスト店
+06_invalid_era.pdf,2018-10-01,100,テスト店

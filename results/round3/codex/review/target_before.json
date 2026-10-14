@@ -1,0 +1,14 @@
+{
+  "target/SPEC.md": "7f817ac763051631130e36deb3db33eb28e30ccb0dd1b5602a80e4769ad5a041",
+  "target/receipt2csv.py": "c7e707f7ed1094fa2b6e5770cadbd98046b13e2b71b3adb28d4bb0d0f9186127",
+  "target/samples/01_cafe.pdf": "4f9c38e8fb67838ae874adbb62fc9205ac4ae8150803725b6be25392587186c3",
+  "target/samples/02_stationery.pdf": "6fe5087ddd808d1250ac80f9c66bd7d6d3ac33586257aa5812ed9d1cf20da39f",
+  "target/samples/03_books.pdf": "be58337215acf822e61c2160cae3ca4963c3bff3444f92b4cab8a6a486b6d71f",
+  "target/samples/04_taxi.png": "cc955d4338a8ff27e4eb50e45e93cf0e370db3ef81b651e0721e005e862f8b9f",
+  "target/samples/05_parking.png": "cf766d5ff3340bbd6a78c52f6655dc59e94cdcb110e87ff1d8b72804bd3569f1",
+  "target/samples/06_lunch.jpg": "8f0e29ce1d0553550e8502f73116ad821af82bab05fac59feceb861c8a30d7f2",
+  "target/samples/07_scanned.pdf": "bd8251d6cbf9de049bd4510d32f25b22944c64b56247d897d7556655ad5d0f26",
+  "target/samples/memo.txt": "5565717f40e269ad437a0e06ad2149349d6965edbd5756da7f41d2eeb699aeeb",
+  "target/tests/test_acceptance.py": "fa3addc0b889fe93b684ce0d69a958cbd2bff511252eb7aaf87d93a1f0e82dc5",
+  "target/tests/test_receipt2csv.py": "0f177d37e8c33e568da5f0b94a7dfc0ffa6e3abb891d053e0c649368144731e2"
+}

@@ -1,0 +1,12 @@
+{"amount_compound_total/a_discount.pdf":{"amount":"1300"},"amount_compound_total/b_tax_rate.pdf":{"amount":"1640"},"amount_compound_total/c_item_count.pdf":{"amount":"1280"},
+"ocr_tilt/b_rotate_+1.0.png":{"amount":"980"},"ocr_tilt/b_rotate_+1.5.png":{"amount":"980"},"ocr_tilt/b_rotate_+2.0.png":{"amount":"980"},"ocr_tilt/b_rotate_+3.0.png":{"amount":"980"},
+"store_addressee/a_formal_sama.pdf":{"store":"まるいち書店","amount":"12100"},"store_addressee/b_onchu.pdf":{"store":"まるいち書店"},
+"ocr_row_merge/a_on_desk.png":{"amount":"8605","store":"スーパーみどり 中央店"},
+"amount_english_subtotal/a_sub_total.pdf":{"amount":"330"},"amount_english_subtotal/b_sub-total.pdf":{"amount":"330"},"amount_english_subtotal/c_total_tax.pdf":{"amount":"1100"},
+"amount_unmarked_first_number/a_backslash_yen.pdf":{"amount":"1280"},"amount_unmarked_first_number/b_items.pdf":{"amount":"1500"},"amount_unmarked_first_number/c_count_then_next_line.pdf":{"amount":"1280"},
+"amount_space_concat/a_persons.pdf":{"amount":"3300"},"amount_space_concat/b_count_before_yen.pdf":{"amount":"1280"},
+"date_first_wins/a_parking.pdf":{"date":"2026-10-05"},"date_first_wins/b_hotel.pdf":{"date":"2026-10-05"},
+"store_first_line/a_number.pdf":{"store":"まるいち書店"},"store_first_line/b_copy.pdf":{"store":"まるいち書店"},"store_first_line/c_100yen_shop.pdf":{"store":"100円ショップ ダイソー"},"store_first_line/d_address_first.pdf":{"store":""},
+"amount_label_vocabulary/a_okaikei.pdf":{"amount":"3300"},"amount_label_vocabulary/b_soukei.pdf":{"amount":"3300"},"amount_label_vocabulary/c_goriyou.pdf":{"amount":"3300"},"amount_label_vocabulary/d_kingaku.pdf":{"amount":"3300"},
+"image_transparent_png/a_transparent.png":{"amount":"980"},
+"date_reiwa_variants/a_r_abbrev.pdf":{"date":"2026-10-07"},"date_reiwa_variants/b_reiwa_with_seireki.pdf":{"date":"2026-10-07"},"date_reiwa_variants/c_seireki_with_reiwa.pdf":{"date":"2026-10-07"}}

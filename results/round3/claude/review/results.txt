@@ -1,0 +1,158 @@
+# 実行環境
+ProductName:		macOS ProductVersion:		26.4.1 BuildVersion:		25E253 
+Python 3.14.5 / PyMuPDF 1.28.0 / Pillow 12.3.0
+swift-driver version: 1.148.6 Apple Swift version 6.3.3 (swiftlang-6.3.3.1.3 clang-2100.1.1.101)
+
+## $ python3 target/receipt2csv.py review/cases/amount_compound_total
+file,date,amount,store
+a_discount.pdf,2026-10-10,200,スーパーみどり
+b_tax_rate.pdf,2026-10-10,540,スーパーみどり
+c_item_count.pdf,2026-10-10,3,スーパーみどり
+(exit=0)
+
+## $ python3 target/receipt2csv.py review/cases/ocr_tilt
+file,date,amount,store
+a_upright.png,2026-10-07,980,定食処 あおば
+b_rotate_+1.0.png,2026-10-07,,定食処 あおば
+b_rotate_+1.5.png,2026-10-07,1000,定食処 あおば
+b_rotate_+2.0.png,2026-10-07,1000,定食処 あおば
+b_rotate_+3.0.png,2026-10-07,1000,定食処 あおば
+b_rotate_-1.0.png,2026-10-07,980,定食処 あおば
+b_rotate_-2.0.png,2026-10-07,980,定食処 あおば
+b_rotate_-3.0.png,2026-10-07,980,定食処あおば
+(exit=0)
+
+## $ python3 target/receipt2csv.py review/cases/store_addressee
+file,date,amount,store
+a_formal_sama.pdf,2026-10-01,,山田 太郎 様
+b_onchu.pdf,2026-10-01,1100,株式会社テスト 御中
+(exit=0)
+
+## $ python3 target/receipt2csv.py review/cases/ocr_row_merge
+file,date,amount,store
+a_on_desk.png,2026-10-10,,東京都架空区1-2-3 スーパーみどり 中央店
+b_cropped.png,2026-10-10,8605,スーパーみどり 中央店
+(exit=0)
+
+## $ python3 target/receipt2csv.py review/cases/ocr_row_merge_more
+file,date,amount,store
+items27_total7486.png,2026-10-10,,スーパーみどり 中央店
+items28_total7822.png,2026-10-10,,スーパーみどり 中央店
+items29_total8195.png,2026-10-10,8195,スーパーみどり 中央店 東京都架空区1-2-3
+items31_total9052.png,2026-10-10,,東京都架空区1-2-3 スーパーみどり 中央店
+items32_total9536.png,2026-10-10,,東京都架空区1-2-3 スーパーみどり 中央店
+(exit=0)
+
+## $ python3 target/receipt2csv.py review/cases/amount_english_subtotal
+file,date,amount,store
+a_sub_total.pdf,2026-10-10,300,Blue Bottle Cafe
+b_sub-total.pdf,2026-10-10,300,Blue Bottle Cafe
+c_total_tax.pdf,2026-10-10,100,Blue Bottle Cafe
+(exit=0)
+
+## $ python3 target/receipt2csv.py review/cases/amount_unmarked_first_number
+file,date,amount,store
+a_backslash_yen.pdf,2026-10-10,3,スーパーみどり
+b_items.pdf,2026-10-10,2,Blue Bottle Cafe
+c_count_then_next_line.pdf,2026-10-10,3,スーパーみどり
+(exit=0)
+
+## $ python3 target/receipt2csv.py review/cases/amount_space_concat
+file,date,amount,store
+a_persons.pdf,2026-10-10,33002,居酒屋 はなび
+b_count_before_yen.pdf,2026-10-10,21280,居酒屋 はなび
+(exit=0)
+
+## $ python3 target/receipt2csv.py review/cases/date_first_wins
+file,date,amount,store
+a_parking.pdf,2026-10-04,2400,Tokyo Byte Parking
+b_hotel.pdf,2026-10-04,9800,ホテル みなと
+(exit=0)
+
+## $ python3 target/receipt2csv.py review/cases/store_first_line
+file,date,amount,store
+a_number.pdf,2026-10-01,1100,No. 000123
+b_copy.pdf,2026-10-01,1100,お客様控え
+c_100yen_shop.pdf,2026-10-01,110,コップ 110
+d_address_first.pdf,2026-10-01,1100,東京都架空区みどり1-2-3
+(exit=0)
+
+## $ python3 target/receipt2csv.py review/cases/amount_label_vocabulary
+file,date,amount,store
+a_okaikei.pdf,2026-10-10,,居酒屋 はなび
+b_soukei.pdf,2026-10-10,,居酒屋 はなび
+c_goriyou.pdf,2026-10-10,,ヒカリ交通
+d_kingaku.pdf,2026-10-10,,居酒屋 はなび
+(exit=0)
+
+## $ python3 target/receipt2csv.py review/cases/image_transparent_png
+file,date,amount,store
+a_transparent.png,,,
+b_same_on_white.png,2026-10-07,980,定食処 あおば
+(exit=0)
+
+## $ python3 target/receipt2csv.py review/cases/broken_symlink
+file,date,amount,store
+a_ok.pdf,2026-10-01,1100,まるいち書店
+(exit=0)
+
+## $ python3 target/receipt2csv.py review/cases/date_reiwa_variants
+file,date,amount,store
+a_r_abbrev.pdf,,1200,ヒカリ交通
+b_reiwa_with_seireki.pdf,,1200,ヒカリ交通
+c_seireki_with_reiwa.pdf,,1200,ヒカリ交通
+(exit=0)
+
+## $ python3 target/receipt2csv.py review/cases/ok_image_16bit_png
+file,date,amount,store
+a_gray16.png,2026-10-07,980,定食処あおば
+(exit=0)
+
+## $ python3 target/receipt2csv.py review/cases/ok_encrypted_pdf
+file,date,amount,store
+警告: locked.pdf を読めません: document closed or encrypted
+locked.pdf,,,
+(exit=0)
+
+## $ python3 target/receipt2csv.py review/cases/ok_pdf_columns
+file,date,amount,store
+columns.pdf,2026-10-01,1257,まるいち書店
+(exit=0)
+
+## $ python3 target/receipt2csv.py review/cases/note_refund_and_appledouble
+file,date,amount,store
+警告: ._a_refund.pdf を読めません: Failed to open file 'review/cases/note_refund_and_appledouble/._a_refund.pdf' as type pdf.
+._a_refund.pdf,,,
+a_refund.pdf,2026-10-10,1280,スーパーみどり
+(exit=0)
+
+## Shift_JIS ロケール: LC_ALL=ja_JP.SJIS python3 target/receipt2csv.py target/samples
+（CSV は UTF-8、標準エラーはロケールどおり Shift_JIS で出るので UTF-8 に変換して表示）
+file,date,amount,store
+01_cafe.pdf,2026-09-03,1280,カフェ ミドリ堂
+02_stationery.pdf,2026-09-14,1573,文具のサクラ屋
+03_books.pdf,2026-10-01,12100,まるいち書店
+04_taxi.png,,,
+05_parking.png,,,
+06_lunch.jpg,,,
+07_scanned.pdf,,,
+(exit=0)
+警告: 04_taxi.png を読めません: 'shift_jis' codec can't decode byte 0x8c in position 41: illegal multibyte sequence
+警告: 05_parking.png を読めません: 'shift_jis' codec can't decode byte 0x91 in position 94: illegal multibyte sequence
+警告: 06_lunch.jpg を読めません: 'shift_jis' codec can't decode byte 0x87 in position 16: illegal multibyte sequence
+警告: 07_scanned.pdf を読めません: 'shift_jis' codec can't decode byte 0x88 in position 42: illegal multibyte sequence
+
+## OCR が使えない環境（swiftc が PATH に無い）: env PATH=/var/empty "$(command -v python3)" target/receipt2csv.py review/cases/pdf_blank_second_page
+file,date,amount,store
+a_one_page.pdf,2026-10-01,1100,まるいち書店
+警告: b_two_pages.pdf を読めません: Vision OCR を起動できません（macOS と Swift が必要です）
+b_two_pages.pdf,,,
+(exit=0)
+
+## 細い画像: /usr/bin/time -l python3 target/receipt2csv.py review/cases/image_narrow
+入力サイズ: 1269 bytes
+file,date,amount,store
+narrow_16x2000.png,,,
+       34.79 real        34.01 user         0.72 sys
+          1362935808  maximum resident set size
+

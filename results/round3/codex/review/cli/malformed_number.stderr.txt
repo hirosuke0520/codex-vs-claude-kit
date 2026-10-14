@@ -1,0 +1,1 @@
+警告: receipt.pdf: 読み取れませんでした（解析中のエラー: Exceeds the limit (4300 digits) for integer string conversion: value has 4301 digits; use sys.set_int_max_str_digits() to increase the limit）

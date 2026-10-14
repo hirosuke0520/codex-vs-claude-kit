@@ -1,0 +1,22 @@
+{
+  "case": "invalid_date",
+  "command": [
+    "/opt/homebrew/opt/python@3.14/bin/python3.14",
+    "-B",
+    "<round3>/target/receipt2csv.py",
+    "<round3>/review/cases/invalid_date"
+  ],
+  "exit_code": 0,
+  "expected": {
+    "date": ""
+  },
+  "actual": [
+    {
+      "file": "receipt.pdf",
+      "date": "2026-10-11",
+      "amount": "100",
+      "store": "テスト店"
+    }
+  ],
+  "matches_spec": false
+}

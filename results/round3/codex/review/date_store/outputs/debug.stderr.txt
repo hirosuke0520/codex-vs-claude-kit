@@ -1,0 +1,26 @@
+--- 01_store_label.pdf [テキスト None] -> {'date': '2026-10-01', 'amount': '100', 'store': '店名'}
+    店名  (size=11.0)
+    カフェ ミドリ堂  (size=11.0)
+    2026/10/01  (size=11.0)
+    合計 ¥100  (size=11.0)
+--- 02_invalid_date.pdf [テキスト None] -> {'date': '2026-10-11', 'amount': '100', 'store': 'テスト店'}
+    テスト店  (size=11.0)
+    2026年10月112日  (size=11.0)
+    合計 ¥100  (size=11.0)
+--- 03_expiry_only.pdf [テキスト None] -> {'date': '2026-10-31', 'amount': '100', 'store': 'テスト店'}
+    テスト店  (size=11.0)
+    有効期限 2026/10/31  (size=11.0)
+    合計 ¥100  (size=11.0)
+--- 04_item_no_store.pdf [テキスト None] -> {'date': '2026-10-01', 'amount': '100', 'store': '商品名: コーヒー'}
+    商品名: コーヒー  (size=11.0)
+    2026/10/01  (size=11.0)
+    合計 ¥100  (size=11.0)
+--- 05_old_date.pdf [テキスト None] -> {'date': '', 'amount': '100', 'store': 'テスト店'}
+    テスト店  (size=11.0)
+    1988/10/01  (size=11.0)
+    合計 ¥100  (size=11.0)
+警告: 05_old_date.pdf: 日付を取得できませんでした
+--- 06_invalid_era.pdf [テキスト None] -> {'date': '2018-10-01', 'amount': '100', 'store': 'テスト店'}
+    テスト店  (size=11.0)
+    令和0年10月1日  (size=11.0)
+    合計 ¥100  (size=11.0)

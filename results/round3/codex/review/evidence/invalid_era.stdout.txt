@@ -1,0 +1,2 @@
+file,date,amount,store
+receipt.pdf,2018-10-01,100,テスト店

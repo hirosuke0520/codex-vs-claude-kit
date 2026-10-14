@@ -1,0 +1,24 @@
+{
+  "case": "subtotal_only",
+  "command": [
+    "/opt/homebrew/opt/python@3.14/bin/python3.14",
+    "-B",
+    "<round3>/target/receipt2csv.py",
+    "<round3>/review/cases/subtotal_only"
+  ],
+  "exit_code": 0,
+  "expected": {
+    "date": "2026-10-01",
+    "amount": "",
+    "store": "テスト商店"
+  },
+  "actual": [
+    {
+      "file": "receipt.pdf",
+      "date": "2026-10-01",
+      "amount": "1000",
+      "store": "テスト商店"
+    }
+  ],
+  "matches_spec": false
+}

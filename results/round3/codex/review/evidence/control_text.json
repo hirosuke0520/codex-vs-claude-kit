@@ -1,0 +1,24 @@
+{
+  "case": "control_text",
+  "command": [
+    "/opt/homebrew/opt/python@3.14/bin/python3.14",
+    "-B",
+    "<round3>/target/receipt2csv.py",
+    "<round3>/review/cases/control_text"
+  ],
+  "exit_code": 0,
+  "expected": {
+    "date": "2026-10-01",
+    "amount": "1280",
+    "store": "Maple Cafe"
+  },
+  "actual": [
+    {
+      "file": "receipt.pdf",
+      "date": "2026-10-01",
+      "amount": "1280",
+      "store": "Maple Cafe"
+    }
+  ],
+  "matches_spec": true
+}

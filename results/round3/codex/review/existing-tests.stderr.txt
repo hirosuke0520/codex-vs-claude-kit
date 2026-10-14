@@ -1,0 +1,43 @@
+test_broken_file_does_not_stop_batch (test_acceptance.Acceptance.test_broken_file_does_not_stop_batch) ... ok
+test_empty_dir (test_acceptance.Acceptance.test_empty_dir) ... ok
+test_exit_code_zero (test_acceptance.Acceptance.test_exit_code_zero) ... ok
+test_header (test_acceptance.Acceptance.test_header) ... ok
+test_missing_dir_fails (test_acceptance.Acceptance.test_missing_dir_fails) ... ok
+test_rows_sorted_and_only_receipts (test_acceptance.Acceptance.test_rows_sorted_and_only_receipts) ... ok
+test_stdout_when_no_output_option (test_acceptance.Acceptance.test_stdout_when_no_output_option) ... ok
+test_values (test_acceptance.Acceptance.test_values) ... ok
+test_counts_are_not_amounts (test_receipt2csv.AmountTest.test_counts_are_not_amounts) ... ok
+test_fallbacks_without_total_line (test_receipt2csv.AmountTest.test_fallbacks_without_total_line) ... ok
+test_keywords_and_formats (test_receipt2csv.AmountTest.test_keywords_and_formats) ... ok
+test_label_and_amount_on_separate_lines (test_receipt2csv.AmountTest.test_label_and_amount_on_separate_lines) ... ok
+test_paid_amount_after_discount (test_receipt2csv.AmountTest.test_paid_amount_after_discount) ... ok
+test_purchase_total_before_coupon_is_not_paid_amount (test_receipt2csv.AmountTest.test_purchase_total_before_coupon_is_not_paid_amount) ... ok
+test_total_not_subtotal_tendered_change_tax (test_receipt2csv.AmountTest.test_total_not_subtotal_tendered_change_tax) ... ok
+test_bad_arguments_fail_without_traceback (test_receipt2csv.CliTest.test_bad_arguments_fail_without_traceback) ... ok
+test_output_file_is_utf8_and_stdout_is_empty (test_receipt2csv.CliTest.test_output_file_is_utf8_and_stdout_is_empty) ... ok
+test_text_pdfs_and_file_selection (test_receipt2csv.CliTest.test_text_pdfs_and_file_selection) ... ok
+test_unreadable_files_get_empty_rows (test_receipt2csv.CliTest.test_unreadable_files_get_empty_rows) ... ok
+test_formats (test_receipt2csv.DateTest.test_formats) ... ok
+test_label_decides_between_dates (test_receipt2csv.DateTest.test_label_decides_between_dates) ... ok
+test_not_dates (test_receipt2csv.DateTest.test_not_dates) ... ok
+test_stay_period_start_and_scanner_stamp_are_not_issue_dates (test_receipt2csv.DateTest.test_stay_period_start_and_scanner_stamp_are_not_issue_dates) ... ok
+test_label_and_amount_on_same_baseline_join (test_receipt2csv.LayoutTest.test_label_and_amount_on_same_baseline_join) ... ok
+test_rotated_segments_are_read_in_order (test_receipt2csv.LayoutTest.test_rotated_segments_are_read_in_order) ... ok
+test_vote (test_receipt2csv.LayoutTest.test_vote) ... ok
+test_exit_code (test_receipt2csv.OcrTest.test_exit_code) ... ok
+test_values (test_receipt2csv.OcrTest.test_values) ... ok
+test_address_lines_are_not_stores (test_receipt2csv.StoreTest.test_address_lines_are_not_stores) ... ok
+test_company_form_on_its_own_line (test_receipt2csv.StoreTest.test_company_form_on_its_own_line) ... ok
+test_document_titles_and_brackets (test_receipt2csv.StoreTest.test_document_titles_and_brackets) ... ok
+test_english_words_containing_keywords (test_receipt2csv.StoreTest.test_english_words_containing_keywords) ... ok
+test_first_line_store (test_receipt2csv.StoreTest.test_first_line_store) ... ok
+test_issuer_at_bottom_of_receipt_form (test_receipt2csv.StoreTest.test_issuer_at_bottom_of_receipt_form) ... ok
+test_labels_and_same_line_contacts (test_receipt2csv.StoreTest.test_labels_and_same_line_contacts) ... ok
+test_prefecture_word_in_store_name (test_receipt2csv.StoreTest.test_prefecture_word_in_store_name) ... ok
+test_skips_titles_customers_and_boilerplate (test_receipt2csv.StoreTest.test_skips_titles_customers_and_boilerplate) ... ok
+test_store_names_that_look_like_keywords (test_receipt2csv.StoreTest.test_store_names_that_look_like_keywords) ... ok
+
+----------------------------------------------------------------------
+Ran 38 tests in 16.323s
+
+OK

@@ -1,0 +1,181 @@
+{
+  "cash_paid_after_points": {
+    "source": "amount/cash_paid_after_points/receipt.pdf",
+    "expected": {
+      "date": "2026-10-01",
+      "amount": "800",
+      "store": "テスト商店"
+    }
+  },
+  "coupon_paid_label": {
+    "source": "amount/coupon_paid_label/receipt.pdf",
+    "expected": {
+      "date": "2026-10-01",
+      "amount": "800",
+      "store": "テスト商店"
+    }
+  },
+  "zero_total": {
+    "source": "amount/zero_total/receipt.pdf",
+    "expected": {
+      "date": "2026-10-01",
+      "amount": "0",
+      "store": "テスト商店"
+    }
+  },
+  "zero_only": {
+    "source": "amount/zero_only/receipt.pdf",
+    "expected": {
+      "date": "2026-10-01",
+      "amount": "0",
+      "store": "テスト商店"
+    }
+  },
+  "tendered_only": {
+    "source": "amount/tendered_only/receipt.pdf",
+    "expected": {
+      "date": "2026-10-01",
+      "amount": "",
+      "store": "テスト商店"
+    }
+  },
+  "subtotal_only": {
+    "source": "amount/subtotal_only/receipt.pdf",
+    "expected": {
+      "date": "2026-10-01",
+      "amount": "",
+      "store": "テスト商店"
+    }
+  },
+  "split_payment": {
+    "source": "amount/split_payment/receipt.pdf",
+    "expected": {
+      "date": "2026-10-01",
+      "amount": "3000",
+      "store": "テスト商店"
+    }
+  },
+  "two_tax_rates": {
+    "source": "amount/two_tax_rates/receipt.pdf",
+    "expected": {
+      "date": "2026-10-01",
+      "amount": "2180",
+      "store": "テスト商店"
+    }
+  },
+  "postfix_total": {
+    "source": "amount/postfix_total/receipt.pdf",
+    "expected": {
+      "date": "2026-10-01",
+      "amount": "1280",
+      "store": "テスト商店"
+    }
+  },
+  "mixed_strength": {
+    "source": "amount/mixed_strength/receipt.pdf",
+    "expected": {
+      "date": "2026-10-01",
+      "amount": "1280",
+      "store": "テスト商店"
+    }
+  },
+  "store_label": {
+    "source": "date_store/inputs/01_store_label.pdf",
+    "expected": {
+      "store": "カフェ ミドリ堂"
+    }
+  },
+  "invalid_date": {
+    "source": "date_store/inputs/02_invalid_date.pdf",
+    "expected": {
+      "date": ""
+    }
+  },
+  "expiry_only": {
+    "source": "date_store/inputs/03_expiry_only.pdf",
+    "expected": {
+      "date": ""
+    }
+  },
+  "item_no_store": {
+    "source": "date_store/inputs/04_item_no_store.pdf",
+    "expected": {
+      "store": ""
+    }
+  },
+  "old_date": {
+    "source": "date_store/inputs/05_old_date.pdf",
+    "expected": {
+      "date": "1988-10-01"
+    }
+  },
+  "invalid_era": {
+    "source": "date_store/inputs/06_invalid_era.pdf",
+    "expected": {
+      "date": ""
+    }
+  },
+  "scanner_date": {
+    "source": "pdf/scanner_date/receipt.pdf",
+    "expected": {
+      "date": "2026-10-01",
+      "amount": "1280"
+    }
+  },
+  "page_limit": {
+    "source": "pdf/page_limit/receipt.pdf",
+    "expected": {
+      "date": "2026-10-01",
+      "amount": "1280",
+      "store": "Maple Cafe"
+    }
+  },
+  "ocr_limit": {
+    "source": "pdf/ocr_limit/receipt.pdf",
+    "expected": {
+      "date": "2026-10-01",
+      "amount": "1280",
+      "store": "Maple Cafe"
+    }
+  },
+  "small_image": {
+    "source": "pdf/small_image/receipt.pdf",
+    "expected": {
+      "date": "2026-10-01",
+      "amount": "1280",
+      "store": "Maple Cafe"
+    }
+  },
+  "control_text": {
+    "source": "pdf/control_text/receipt.pdf",
+    "expected": {
+      "date": "2026-10-01",
+      "amount": "1280",
+      "store": "Maple Cafe"
+    }
+  },
+  "control_scan": {
+    "source": "pdf/control_scan/receipt.pdf",
+    "expected": {
+      "date": "2026-10-01",
+      "amount": "1280",
+      "store": "Maple Cafe"
+    }
+  },
+  "small_image_control": {
+    "source": "pdf/small_image_control/receipt.pdf",
+    "expected": {
+      "date": "2026-10-01",
+      "amount": "1280",
+      "store": "Maple Cafe"
+    }
+  },
+  "malformed_number": {
+    "source": "cli/malformed_number/receipt.pdf",
+    "expected": {
+      "date": "2026-10-01",
+      "amount": "100",
+      "store": "テスト商店"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "case": "old_date",
+  "command": [
+    "/opt/homebrew/opt/python@3.14/bin/python3.14",
+    "-B",
+    "<round3>/target/receipt2csv.py",
+    "<round3>/review/cases/old_date"
+  ],
+  "exit_code": 0,
+  "expected": {
+    "date": "1988-10-01"
+  },
+  "actual": [
+    {
+      "file": "receipt.pdf",
+      "date": "",
+      "amount": "100",
+      "store": "テスト店"
+    }
+  ],
+  "matches_spec": false
+}

@@ -1,0 +1,22 @@
+{
+  "case": "expiry_only",
+  "command": [
+    "/opt/homebrew/opt/python@3.14/bin/python3.14",
+    "-B",
+    "<round3>/target/receipt2csv.py",
+    "<round3>/review/cases/expiry_only"
+  ],
+  "exit_code": 0,
+  "expected": {
+    "date": ""
+  },
+  "actual": [
+    {
+      "file": "receipt.pdf",
+      "date": "2026-10-31",
+      "amount": "100",
+      "store": "テスト店"
+    }
+  ],
+  "matches_spec": false
+}

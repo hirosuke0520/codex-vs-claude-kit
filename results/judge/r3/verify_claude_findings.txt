@@ -1,0 +1,72 @@
+## amount_compound_total
+a_discount.pdf,2026-10-10,200,スーパーみどり
+b_tax_rate.pdf,2026-10-10,540,スーパーみどり
+c_item_count.pdf,2026-10-10,3,スーパーみどり
+## ocr_tilt
+a_upright.png,2026-10-07,980,定食処 あおば
+b_rotate_+1.0.png,2026-10-07,,定食処 あおば
+b_rotate_+1.5.png,2026-10-07,1000,定食処 あおば
+b_rotate_+2.0.png,2026-10-07,1000,定食処 あおば
+b_rotate_+3.0.png,2026-10-07,1000,定食処 あおば
+b_rotate_-1.0.png,2026-10-07,980,定食処 あおば
+b_rotate_-2.0.png,2026-10-07,980,定食処 あおば
+b_rotate_-3.0.png,2026-10-07,980,定食処あおば
+## store_addressee
+a_formal_sama.pdf,2026-10-01,,山田 太郎 様
+b_onchu.pdf,2026-10-01,1100,株式会社テスト 御中
+## ocr_row_merge
+a_on_desk.png,2026-10-10,,東京都架空区1-2-3 スーパーみどり 中央店
+b_cropped.png,2026-10-10,8605,スーパーみどり 中央店
+## amount_english_subtotal
+a_sub_total.pdf,2026-10-10,300,Blue Bottle Cafe
+b_sub-total.pdf,2026-10-10,300,Blue Bottle Cafe
+c_total_tax.pdf,2026-10-10,100,Blue Bottle Cafe
+## amount_unmarked_first_number
+a_backslash_yen.pdf,2026-10-10,3,スーパーみどり
+b_items.pdf,2026-10-10,2,Blue Bottle Cafe
+c_count_then_next_line.pdf,2026-10-10,3,スーパーみどり
+## amount_space_concat
+a_persons.pdf,2026-10-10,33002,居酒屋 はなび
+b_count_before_yen.pdf,2026-10-10,21280,居酒屋 はなび
+## date_first_wins
+a_parking.pdf,2026-10-04,2400,Tokyo Byte Parking
+b_hotel.pdf,2026-10-04,9800,ホテル みなと
+## store_first_line
+a_number.pdf,2026-10-01,1100,No. 000123
+b_copy.pdf,2026-10-01,1100,お客様控え
+c_100yen_shop.pdf,2026-10-01,110,コップ 110
+d_address_first.pdf,2026-10-01,1100,東京都架空区みどり1-2-3
+## amount_label_vocabulary
+a_okaikei.pdf,2026-10-10,,居酒屋 はなび
+b_soukei.pdf,2026-10-10,,居酒屋 はなび
+c_goriyou.pdf,2026-10-10,,ヒカリ交通
+d_kingaku.pdf,2026-10-10,,居酒屋 はなび
+## image_transparent_png
+a_transparent.png,,,
+b_same_on_white.png,2026-10-07,980,定食処 あおば
+## broken_symlink
+a_ok.pdf,2026-10-01,1100,まるいち書店
+## date_reiwa_variants
+a_r_abbrev.pdf,,1200,ヒカリ交通
+b_reiwa_with_seireki.pdf,,1200,ヒカリ交通
+c_seireki_with_reiwa.pdf,,1200,ヒカリ交通
+H1_値引合計が上: got=['2026-10-10', '200', 'スーパー架空'] expect=['2026-10-10', '1300', 'スーパー架空'] rc=0 (再現)
+H3_宛名様: got=['2026-10-01', '1100', '山田 太郎 様'] expect=['2026-10-01', '1100', 'まるいち書店'] rc=0 (再現)
+M1_SUB_TOTAL: got=['2026-10-10', '300', 'Blue Cafe'] expect=['2026-10-10', '330', 'Blue Cafe'] rc=0 (再現)
+M3_2名様: got=['2026-10-10', '33002', '居酒屋 はなび'] expect=['2026-10-10', '3300', '居酒屋 はなび'] rc=0 (再現)
+M6_お会計: got=['2026-10-10', '', '居酒屋 はなび'] expect=['2026-10-10', '3300', '居酒屋 はなび'] rc=0 (再現)
+file,date,amount,store
+01_cafe.pdf,2026-09-03,1280,カフェ ミドリ堂
+02_stationery.pdf,2026-09-14,1573,文具のサクラ屋
+03_books.pdf,2026-10-01,12100,まるいち書店
+04_taxi.png,,,
+05_parking.png,,,
+06_lunch.jpg,,,
+07_scanned.pdf,,,
+file,date,amount,store
+a_one_page.pdf,2026-10-01,1100,まるいち書店
+警告: b_two_pages.pdf を読めません: Vision OCR を起動できません（macOS と Swift が必要です）
+b_two_pages.pdf,,,
+narrow_16x2000.png,,,
+       34.25 real        33.73 user         0.53 sys
+          1367244800  maximum resident set size

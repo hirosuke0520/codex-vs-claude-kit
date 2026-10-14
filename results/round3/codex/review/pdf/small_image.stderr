@@ -1,0 +1,3 @@
+--- receipt.pdf [テキスト None] -> {'date': '', 'amount': '', 'store': 'Scanned'}
+    Scanned  (size=12.0)
+警告: receipt.pdf: 日付・金額を取得できませんでした
